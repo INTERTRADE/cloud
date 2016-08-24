@@ -27,6 +27,7 @@ echo 'ZONE="Asia/Tokyo"'  > /etc/sysconfig/clock
 # カーネルパラメータの変更
 cp -p /etc/sysctl.conf /etc/sysctl.conf.org
 cat >> ${ETH00} << ETX
+# Add
 kernel.sem = 250 32000 128 1000
 net.core.rmem_default = 1048756
 net.core.wmem_default = 262144
