@@ -18,6 +18,7 @@ echo "any net 239.0.0.0/8 dev eth0" >> /etc/sysconfig/static-routes
 # NWサービス再起動
 service network restart
 
+
 # 時刻修正
 mv /etc/localtime /etc/localtime.org
 ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime

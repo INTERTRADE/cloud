@@ -12,6 +12,7 @@ IPADDR=10.132.66.163
 echo "NETMASK=255.255.255.240 
 ETX
 
+
 # NWサービス再起動
 service network restart
 
